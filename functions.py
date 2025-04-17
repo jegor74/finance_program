@@ -1,8 +1,7 @@
 def l_day(fname: str) -> str:
 
-    with open(fname, 'r') as file:
-        for s in file:
-            ld = s[:2]
+    with open(fname) as file:
+        ld = file.readlines()[-1]
 
     return ld
 
