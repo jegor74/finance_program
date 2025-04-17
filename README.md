@@ -30,7 +30,7 @@ Programm has no interface or app, so it will work only in terminal.
 
 ### Using 
 After running this program, it will ask you to write the start ammount, and after this - to write the remaining ammount for the previos month *(if
-you dont have - write 0 or smth, thats not making sense now in ver 1.0)*.
+you dont have - write 0 or smth, thats not making sense now in ver 2.0)*.
 
 **There is example of working:** 
 
@@ -43,7 +43,7 @@ Balance from last month >>> 140
 Sum for 01.01 >>> 5
 Sum for 01.02 >>> 7
 ========================================
-Total sum at the moment: 12
+Spendings at the moment: 12
 Balance: 300 - 12 = 288
 ```
 
