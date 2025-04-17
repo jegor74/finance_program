@@ -146,5 +146,5 @@ def print_result(st: int, s: int, d: int) -> None:
     """
     
     print(40 * "=")
-    print(f"Spends at the moment: {s:_}")
-    print(f"Remaining balance: {st:_} - {s:_} = {d:_}")
+    print(f"Spendings at the moment: {s:_}")
+    print(f"Balance: {st:_} - {s:_} = {d:_}")
