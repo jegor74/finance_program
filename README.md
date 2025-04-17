@@ -37,14 +37,14 @@ you dont have - write 0 or smth, thats not making sense now in ver 1.0)*.
 ```
 $python3 main.py
 
-Start ammount >>> 300
-remaining ammount >>> 140
+Start balance >>> 300
+Balance from last month >>> 140
 ========================================
 Sum for 01.01 >>> 5
 Sum for 01.02 >>> 7
 ========================================
 Total sum at the moment: 12
-Remaining: 300 - 12 = 288
+Balance: 300 - 12 = 288
 ```
 
 The results are written to a file *finance_{month}_{year}*, that is in directory archive. The directory is in the same way, as *main.py* and *functions.py*. The last two lines will always print in terminal, but not in file if the day isn’t last in month. Otherwise, the two lines will print in terminal and will write in file. 
