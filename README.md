@@ -11,13 +11,13 @@ I was made it for practice working with files, directories and strigns. There is
 -program has 2 files: *main.py* and *functions.py*\
 -some phrases were written in russian, but the interface is still clear (maybe)\
 -some functions can be non-optimized\
--it’s impossible to done writing for previous month if there is already another\
+-it’s impossible to done writing for previous month if there is already another
 
 **Ver 2.0**\
 -all phrases now in english\
 -optimized some functions\
 -added many comments in code\
--added descriptions in functions\
+-added descriptions in functions
 
 ## **Quick start** 
 
