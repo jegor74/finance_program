@@ -56,7 +56,7 @@ def main() -> None:
 
  
     if day == cnt_day:                                          
-        last_write(file_name, start, summ, diff)                 #writing final results to the end of file
+        f.last_write(file_name, start, summ, diff)               #writing final results to the end of file
         f.print_result(start, summ, diff)                        #print of the results for today
     else:
         f.print_result(start, summ, diff)                        #same thing

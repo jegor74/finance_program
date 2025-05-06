@@ -126,7 +126,7 @@ def init_amo(fname: str) -> int:
     """
     with open(fname) as file:
         s = file.readline()        #first line in file
-        n = int(s[10:])            
+        n = int(s[16:])            
 
     return n
 
