@@ -17,14 +17,15 @@ I was made it for practice working with files, directories and strigns. There is
 -all phrases now in english\
 -optimized some functions\
 -added many comments in code\
--added descriptions in functions
+-added descriptions in functions\
+-added binary file
 
 ## **Quick start** 
 
 ### Download 
-To start use this program, you only need to clone repository and run the program. For example, in terminal in linux: 
+To start use this program, you only need to download binary file *finance* in *bin* directory and run it. For example, in terminal in linux: 
 ```
-$python3 main.py
+$./finance
 ```
 Programm has no interface or app, so it will work only in terminal. 
 
@@ -35,7 +36,7 @@ you dont have - write 0 or smth, thats not making sense now in ver 2.0)*.
 **There is example of working:** 
 
 ```
-$python3 main.py
+$./finance
 
 Start balance >>> 300
 Balance from last month >>> 140
@@ -47,7 +48,7 @@ Spendings at the moment: 12
 Balance: 300 - 12 = 288
 ```
 
-The results are written to a file *finance_{month}_{year}*, that is in directory archive. The directory is in the same way, as *main.py* and *functions.py*. The last two lines will always print in terminal, but not in file if the day isn’t last in month. Otherwise, the two lines will print in terminal and will write in file. 
+The results are written to a file *finance_{month}_{year}*, that is in directory *archive*. The directory is in the same way, as **finance*. The last two lines will always print in terminal, but not in file if the day isn’t last in month. Otherwise, the two lines will print in terminal and will write in file. 
 
 **Big problem:**
 If there was no time to write the spending until the last day of month 23:59:59, it will impossible to work with this file, because the
